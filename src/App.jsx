@@ -48,8 +48,7 @@ function App() {
       <h1>Hello World</h1>
       <div className="filter__text">
         <input type="text"
-          onChange={(e)=> filterByText(e)}placeholder="Search
-            pokemons..." />
+          onChange={(e)=> filterByText(e)}placeholder="Search pokemons..." />
         </div>
       <List data={pokemons} />
     </div>
