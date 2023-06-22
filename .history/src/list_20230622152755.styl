@@ -1,0 +1,36 @@
+//480,768,1024
+sm = 468px
+md = 768px
+lg = 1024px
+
+body
+    background: inherit
+
+@media screen and (min-width: sm)
+    body
+        background: inherit
+    .list__pokemons
+        display: inline-block
+        //flex-direction: column
+        &__element
+            list-style none
+
+@media screen and (min-width: md)
+    body
+        background: peru
+     .list__pokemons
+        column-count 2
+
+        &__element
+            
+
+
+@media screen and (min-width: lg)
+    body
+        background: skyblue
+     .list__pokemons
+        //display: flex
+        column-count 4
+        &__element
+            list-style none
+
